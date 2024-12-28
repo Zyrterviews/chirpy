@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+goose -dir "sql/schema" postgres "postgres://zyr:@localhost:5432/chirpy" up
